@@ -1,5 +1,7 @@
 # MappingConsolidator
 
+[![Build Status](https://travis-ci.org/alexvinall/MappingConsolidator.svg?branch=master)](https://travis-ci.org/alexvinall/MappingConsolidator)
+
 Helper API for consolidating collections of linked Strings into aggregated sets
 
 This helper accepts a collection of paired strings (a key and a corresponding value), 
