@@ -9,6 +9,7 @@ The helper is designed to handle any cardinality of keys to values:
  * One-to-one
  * One-to-many
  * Many-to-one
+ * Many-to-many
 
 For example, given the following input:
 
