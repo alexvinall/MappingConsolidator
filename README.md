@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/alexvinall/MappingConsolidator.svg?branch=master)](https://travis-ci.org/alexvinall/MappingConsolidator)
 
-Helper API for consolidating collections of linked Strings into aggregated sets
+Helper for consolidating associated pairs of Strings into aggregated sets.
 
 This helper accepts a collection of paired strings (a key and a corresponding value), 
 and consolidates them into a map of unique keys and the associated set of values.
@@ -19,10 +19,11 @@ For example, given the following input:
     A -> 2 
     B -> 3 
     C -> 4 
-    D -> 4 
+    D -> 4
+    D -> 5    
 
 The helper will return the following map:
 
     [A]:1,2 
     [B]:3 
-    [C+D]:4
+    [C+D]:4,5
