@@ -12,14 +12,14 @@ The helper is designed to handle any cardinality of keys to values:
 
 For example, given the following input:
 
-A -> 1 
-A -> 2 
-B -> 3 
-C -> 4 
-D -> 4 
+    A -> 1 
+    A -> 2 
+    B -> 3 
+    C -> 4 
+    D -> 4 
 
 The helper will return the following map:
 
-[A]:1,2 
-[B]:3 
-[C+D]:4
+    [A]:1,2 
+    [B]:3 
+    [C+D]:4
