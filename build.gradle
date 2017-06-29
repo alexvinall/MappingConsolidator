@@ -9,6 +9,9 @@
 // Apply the java-library plugin to add support for Java Library
 apply plugin: 'java-library'
 
+// Use Jacoco for code coverage
+apply plugin: 'jacoco'
+
 // In this section you declare where to find the dependencies of your project
 repositories {
     // Use jcenter for resolving your dependencies.
@@ -30,3 +33,9 @@ dependencies {
 	compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.6'
 }
 
+jacocoTestReport {
+    reports {
+        xml.enabled true
+        html.enabled false
+    }
+}
