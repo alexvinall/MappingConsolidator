@@ -1,8 +1,6 @@
 # MappingConsolidator
 
-[![Build Status](https://travis-ci.org/alexvinall/MappingConsolidator.svg?branch=master)](https://travis-ci.org/alexvinall/MappingConsolidator)
-
-[![codecov](https://codecov.io/gh/alexvinall/MappingConsolidator/branch/master/graph/badge.svg)](https://codecov.io/gh/alexvinall/MappingConsolidator)
+[![Build Status](https://travis-ci.org/alexvinall/MappingConsolidator.svg?branch=master)](https://travis-ci.org/alexvinall/MappingConsolidator) [![codecov](https://codecov.io/gh/alexvinall/MappingConsolidator/branch/master/graph/badge.svg)](https://codecov.io/gh/alexvinall/MappingConsolidator)
 
 Helper for consolidating associated pairs of Strings into aggregated sets.
 
